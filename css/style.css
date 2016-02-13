@@ -66,6 +66,17 @@ html, body{
      width: 1170px;
    }
  }
+ @media (min-width:3000px) {
+   p {
+      font-size:40px;
+   }
+   h1 {
+      font-size:200px;
+   }
+   h2 {
+      font-size:176px;
+   }
+ }
 
  /* HEADER */
  header {
