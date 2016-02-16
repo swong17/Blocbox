@@ -40,7 +40,9 @@ html, body{
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
-   text-align:center;
+ }
+ .one-half {
+   width:46%;
  }
 
  @media (min-width: 768px) {
