@@ -40,11 +40,16 @@ html, body{
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
+   text-align:center;
  }
 
  @media (min-width: 768px) {
    .container {
      width: 750px;
+   }
+   .one-half {
+     width:46%;
+     text-align:left;
    }
  }
  @media (min-width: 992px) {
@@ -66,7 +71,7 @@ html, body{
      width: 1170px;
    }
  }
- @media (min-width:3000px) {
+ @media (min-width:1980px) {
    .hero p {
       font-size:40px;
    }
@@ -92,6 +97,12 @@ html, body{
    text-align: right;
    float:right;
    margin:0;
+ }
+ @media (max-width:768px) {
+   header nav ul {
+   text-align: center;
+   float:none;
+   }
  }
  header nav ul > li {
    list-style-type: none;
@@ -138,11 +149,12 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
+
  @media (max-width:768px) {
    header .hero img {
    width:96%;
-}
    }
+}
 
  /* BUTTONS */
  .btn {
