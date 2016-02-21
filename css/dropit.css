@@ -55,6 +55,34 @@
  .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
   text-decoration: none;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight:100;
+ }
+ .settings-menu .dropit {
+    list-style: none;
+    padding: 0;
+    margin: -10px 0 0;
+    float:left;
+    display:inline-block;
+ }
+.settings-menu .dropit .dropit-trigger { position: relative; }
+.settings-menu .dropit .dropit-submenu {
+    position: absolute;
+    top: -180px;
+    right:; 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 150px;
+    list-style: none;
+    padding: 20px;
+    margin: 20px 0 0;
+}
+.settings-menu .dropit .dropit-open .dropit-submenu:after {
+  content: " ";
+  border-width: 8px 8px 0px 8px;
+  top: 145px;
+  right: 9px;
+ }
+ .left-nav .settings-menu a {
+    float:none;
  }
