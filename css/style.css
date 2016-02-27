@@ -437,6 +437,7 @@ html, body{
  .left-nav.open {
    display:block;
    width:280px;
+   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -505,6 +506,7 @@ html, body{
    left:0;
    right:0;
    padding:10px 0;
+   color:#fff;
  }
  .left-nav .settings img {
    height:35px;
