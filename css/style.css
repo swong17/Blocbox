@@ -96,7 +96,6 @@ html, body{
  }
  header nav ul {
    display:inline;
-   text-align: right;
    float:right;
    margin:0;
  }
@@ -525,13 +524,12 @@ html, body{
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
-   text-align: right;
    float: right;
    margin-right:10px;
    margin-top:8px;
  }
- .settings-menu ul li a {
-   text-align:left;
+ .settings {
+  text-align:left;
  }
 /* CONTENT */
  .content {
