@@ -61,19 +61,28 @@
  .settings-menu.dropit {
   position:relative;
   border-width: 8px 8px 0px 8px;
-  top:-16px;
+  top:-8px;
  }
  .settings-menu.dropit .dropit-submenu {
   top:auto;
   bottom:0;
   min-width:150px;
  }
+ .settings-menu.dropit .dropit-open .dropit-submenu {
+  top: auto;
+  bottom:30px;
+ }
 .settings-menu.dropit .dropit-open .dropit-submenu:after {
   content: " ";
   border-width: 8px 8px 0px 8px;
-  top: 130px;
+  top: auto;
+  bottom:-8px;
   right: 9px;
  }
+ul.settings-menu__menu.dropit-submenu {
+  top:auto;
+  bottom:20px;
+}
  /*
  .settings-menu .dropit {
     margin: -10px 0 0;

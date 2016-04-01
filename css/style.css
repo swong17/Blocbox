@@ -524,12 +524,9 @@ html, body{
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
-   float: right;
+   float: none;
    margin-right:10px;
    margin-top:8px;
- }
- .settings {
-  text-align:left;
  }
 /* CONTENT */
  .content {
